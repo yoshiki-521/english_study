@@ -34,10 +34,6 @@ text---
 
 ## 必要環境・インストール
 
-### 必要なライブラリ
-
-```bash
-pip install youtube-transcript-api
 Gmailアプリパスワード設定
 
 Googleアカウントで2段階認証を有効化
@@ -45,7 +41,7 @@ Googleアカウントで2段階認証を有効化
 生成された16文字のパスワードをスクリプト内に設定
 
 
-⚙️ 使い方
+ 使い方
 1. 動画URLの登録
 youtube_links.txt にYouTubeのURLを1行に1つずつ記載してください。
 例：
@@ -55,14 +51,14 @@ https://youtu.be/xxxxxxxxxxx
 Bashpython youtube_script.py
 実行すると、登録動画からランダムに1本を選んで字幕を取得し、メールを送信します。
 
-📧 送信されるメール内容例
+ 送信されるメール内容例
 件名: Today's English Articles
 本文:
 texthttps://www.youtube.com/watch?v=xxxxxxxxxxx
 
 [ここに字幕の全文が表示されます]
 
-🔧 カスタマイズポイント
+ カスタマイズポイント
 
 送信元・宛先メールアドレスの変更
 メール件名（subject）の変更
@@ -70,7 +66,7 @@ texthttps://www.youtube.com/watch?v=xxxxxxxxxxx
 毎日自動実行の設定（GitHub Actions推奨）
 
 
-🛡️ エラーハンドリング
+ エラーハンドリング
 
 字幕が無効な動画
 字幕が存在しない動画
@@ -78,9 +74,19 @@ texthttps://www.youtube.com/watch?v=xxxxxxxxxxx
 
 上記全てに対応し、問題のある動画は自動で除外します。
 
-📌 今後の拡張アイデア
+ 今後の拡張アイデア
 
 GitHub Actionsによる毎日自動実行
 AIによる字幕要約機能
 難易度やトピックによるフィルタリング
 LINE/Slack通知対応
+
+
+📝 開発者より
+ポートフォリオ用に作成した実用的自動化スクリプトです。
+シンプルで読みやすく、メンテナンスしやすい設計を心がけました。
+英語学習の効率化や、YouTubeを活用した情報収集自動化の参考になれば幸いです。
+
+Made with ❤️ for English Learning & Automation
+textこの内容をそのままコピーして `README.md` ファイルに貼り付けてください。  
+必要に応じてタイトルや説明を調整したい場合は教えてください！
