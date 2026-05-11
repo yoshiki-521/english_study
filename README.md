@@ -6,7 +6,7 @@ YouTube動画の字幕を自動取得し、自分宛にメールで送信するP
 
 ---
 
-## ✨ プロジェクト概要
+## プロジェクト概要
 
 `youtube_links.txt` に登録した複数のYouTube動画の中から**ランダムに1本**を選択し、字幕（トランスクリプト）を取得してメールで送信します。
 
@@ -14,7 +14,7 @@ YouTube動画の字幕を自動取得し、自分宛にメールで送信するP
 
 ---
 
-## 🚀 主な機能
+## 主な機能
 
 - YouTube URLから動画IDを自動抽出
 - `youtube_transcript_api` を使用した字幕自動取得
@@ -24,7 +24,7 @@ YouTube動画の字幕を自動取得し、自分宛にメールで送信するP
 
 ---
 
-## 📁 ファイル構成
+## ファイル構成
 youtube-transcript-mailer/
 ├── youtube_script.py          # メインスクリプト
 ├── youtube_links.txt          # 取得したい動画URLを記載
@@ -32,7 +32,7 @@ youtube-transcript-mailer/
 └── requirements.txt           # （任意）
 text---
 
-## 🛠 必要環境・インストール
+## 必要環境・インストール
 
 ### 必要なライブラリ
 
